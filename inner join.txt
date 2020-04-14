@@ -1,0 +1,4 @@
+
+Select client.*,orders.*
+FROM client
+INNER JOIN orders ON client.client_id= orders.order_id;
